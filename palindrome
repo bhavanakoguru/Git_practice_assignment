@@ -2,8 +2,8 @@ let num=1221;
 let word=string(num);
 let rotation=word.split('').reverse().join('');
 if(word===rotation){
-console.log('Yes");
+console.log("Yes");
 }else{
-//
+console.log("No");
 }
 }
