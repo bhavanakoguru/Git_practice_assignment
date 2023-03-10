@@ -1,0 +1,88 @@
+<html>
+<style>
+    #container {
+      display: grid;
+      grid-template-columns: repeat(6,100px);
+      grid-template-rows: repeat(7,50px);
+      /* gap:10px 10px ; */
+      text-align: center;
+      color: white;
+    }
+    #one{
+        grid-column-start: 1;
+            grid-column-end: 7;
+    }
+    #two{
+        grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 7; 
+    }
+    #three{
+        grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            /* grid-column-end: 1; */
+            grid-row-end: 5; 
+    }
+    #five{
+        grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 2;
+            grid-row-end: 3; 
+    }
+    #six{
+        grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 3;
+            grid-row-end: 4; 
+    }
+    #seven{
+        grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 4;
+            grid-row-end: 5; 
+    }
+    #eight{
+        grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 5;
+            grid-row-end: 6; 
+    }
+    #nine{
+        grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 6;
+            grid-row-end: 7; 
+    }
+    #four{
+        grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 5;
+            /* grid-column-end: 1; */
+            grid-row-end: 7; 
+    }
+
+    #ten{
+        grid-column-start: 1;
+            grid-column-end: 7;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div style="background-color: #f9cb9c;" id="one">1</div>
+    <div style="background-color: #a2c4c9;" id="two">2</div>
+    <div style="background-color: #b4a7d5;" id="three">3</div>
+    <div style="background-color: #d5a6bd;" id="four">4</div>
+    <div style="background-color: #a3c2f4;" id="five">5</div>
+    <div style="background-color: #9ec5e8;" id="six">6</div>
+    <!-- one completed -->
+    <div style="background-color: #ffe598;" id="seven">7</div>
+    <div style="background-color: #6d9eeb;" id="eight">8</div>
+    <div style="background-color: #d8d2e9;" id="nine">9</div>
+    <div style="background-color: #b7d7a8;" id="ten">10</div>
+
+  </div>
+</body>
+</html>
